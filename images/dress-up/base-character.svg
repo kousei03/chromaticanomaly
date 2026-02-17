@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 600" width="400" height="600">
+  <title>Base character - replace with your own woman/character image</title>
+  <rect width="400" height="600" fill="#f8e0e8"/>
+  <ellipse cx="200" cy="80" rx="50" ry="55" fill="#ffd4dc"/>
+  <path d="M200 135 L140 380 L160 600 L200 580 L240 600 L260 380 Z" fill="#ffd4dc"/>
+  <ellipse cx="170" cy="420" rx="28" ry="45" fill="#ffd4dc"/>
+  <ellipse cx="230" cy="420" rx="28" ry="45" fill="#ffd4dc"/>
+  <text x="200" y="320" text-anchor="middle" fill="#999" font-size="14" font-family="Georgia">Replace this with your character image (same filename: base-character.png or base-character.svg)</text>
+</svg>

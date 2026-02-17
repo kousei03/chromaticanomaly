@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chromatic Anomaly — Dress-up Game</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="page-dress-up">
+  <h1 class="site-title">Chromatic Anomaly</h1>
+  <nav class="site-nav">
+    <a href="index.html">Home</a>
+    <a href="dress-up.html" class="active">Dress me up!</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <div class="dress-up-layout">
+    <div class="character-area">
+      <img src="images/dress-up/dressupedited.png" alt="Character" class="base-character" id="base-character">
+      <div class="drop-zones" id="drop-zones">
+        <div class="drop-zone" id="zone-dress" data-category="dress" style="left: 35.4%; top: 19.7%; width: 52%; height: 50%;"></div>
+        <div class="drop-zone" id="zone-shirt" data-category="shirt" style="left: 39.7%; top: 24.7%; width: 43.5%; height: 22%;"></div>
+        <div class="drop-zone" id="zone-bottom" data-category="bottom" style="left: 45.5%; top: 47.5%; width: 34%; height: 20%;"></div>
+        <div class="drop-zone" id="zone-boots" data-category="boots" style="left: 37.9%; top: 75%; width: 53.7%; height: 26%;"></div>
+      </div>
+    </div>
+
+    <aside class="clothing-bar">
+
+      <h3>Outfit</h3>
+
+      <div class="clothing-category">
+        <span class="cat-label">Shirt</span>
+        <div class="clothing-item" draggable="true" data-category="shirt" data-src="images/dress-up/clothing/Shirt-1.png">
+          <img src="images/dress-up/clothing/Shirt-1.png" alt="Shirt 1">
+        </div>
+        <div class="clothing-item" draggable="true" data-category="shirt" data-src="images/dress-up/clothing/Shirt-2.png">
+          <img src="images/dress-up/clothing/Shirt-2.png" alt="Shirt 2">
+        </div>
+        <div class="clothing-item" draggable="true" data-category="shirt" data-src="images/dress-up/clothing/Shirt-3.png">
+          <img src="images/dress-up/clothing/Shirt-3.png" alt="Shirt 3">
+        </div>
+        <div class="clothing-item" draggable="true" data-category="shirt" data-src="images/dress-up/clothing/Shirt-4.png">
+          <img src="images/dress-up/clothing/Shirt-4.png" alt="Shirt 4">
+        </div>
+        <div class="clothing-item" draggable="true" data-category="shirt" data-src="images/dress-up/clothing/Shirt-5.png">
+          <img src="images/dress-up/clothing/Shirt-5.png" alt="Shirt 5">
+        </div>
+        <div class="clothing-item" draggable="true" data-category="shirt" data-src="images/dress-up/clothing/Shirt-6.png">
+          <img src="images/dress-up/clothing/Shirt-6.png" alt="Shirt 6">
+        </div>
+      </div>
+
+      <div class="clothing-category">
+        <span class="cat-label">Dresses</span>
+        <div class="clothing-item" draggable="true" data-category="dress" data-src="images/dress-up/clothing/Dress-1.png">
+          <img src="images/dress-up/clothing/Dress-1.png" alt="Dress 1">
+        </div>
+        <div class="clothing-item" draggable="true" data-category="dress" data-src="images/dress-up/clothing/Dress-2.png">
+          <img src="images/dress-up/clothing/Dress-2.png" alt="Dress 2">
+        </div>
+      </div>
+
+      <div class="clothing-category">
+        <span class="cat-label">Skirt / Pants</span>
+        <div class="clothing-item" draggable="true" data-category="bottom" data-src="images/dress-up/clothing/Shorts-1.png">
+          <img src="images/dress-up/clothing/Shorts-1.png" alt="Pants 1">
+        </div>
+        <div class="clothing-item" draggable="true" data-category="bottom" data-src="images/dress-up/clothing/Skirt-1.png">
+          <img src="images/dress-up/clothing/Skirt-1.png" alt="Pants 2">
+        </div>
+        <div class="clothing-item" draggable="true" data-category="bottom" data-src="images/dress-up/clothing/Skirt-2.png">
+          <img src="images/dress-up/clothing/Skirt-2.png" alt="Pants 3">
+        </div>
+        <div class="clothing-item" draggable="true" data-category="bottom" data-src="images/dress-up/clothing/Skirt-3.png">
+          <img src="images/dress-up/clothing/Skirt-3.png" alt="Pants 4">
+        </div>
+      </div>
+
+      <div class="clothing-category">
+        <span class="cat-label">Boots</span>
+        <div class="clothing-item" draggable="true" data-category="boots" data-src="images/dress-up/clothing/Boots-1.png">
+          <img src="images/dress-up/clothing/Boots-1.png" alt="Boots 1">
+        </div>
+        <div class="clothing-item" draggable="true" data-category="boots" data-src="images/dress-up/clothing/Boots-2.png">
+          <img src="images/dress-up/clothing/Boots-2.png" alt="Boots 2">
+        </div>
+        <div class="clothing-item" draggable="true" data-category="boots" data-src="images/dress-up/clothing/Boots-3.png">
+          <img src="images/dress-up/clothing/Boots-3.png" alt="Boots 3">
+        </div>
+        <div class="clothing-item" draggable="true" data-category="boots" data-src="images/dress-up/clothing/Boots-4.png">
+          <img src="images/dress-up/clothing/Boots-4.png" alt="Boots 4">
+        </div>
+
+      </div>
+
+    </aside>
+  </div>
+
+  <script src="js/dress-up.js"></script>
+</body>
+</html>
